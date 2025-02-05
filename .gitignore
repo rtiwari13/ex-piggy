@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+.venv
+.env
+*.pyc
+__pycache__/
+db.sqlite3
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code settings
+.vscode/
+
+# IDE settings
+*.iml
+.idea/
+
+# Docker
+*.dockerfile
+docker-compose.yml
+*.tar
+
+# Byte-compiled / cached
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# PostgreSQL
+pgdata/
